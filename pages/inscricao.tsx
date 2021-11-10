@@ -111,9 +111,9 @@ const Subscriptions: React.FC = () => {
                   <path
                     d="M22.5 45L37.5 30L22.5 15"
                     stroke="white"
-                    stroke-width="4"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               )}
