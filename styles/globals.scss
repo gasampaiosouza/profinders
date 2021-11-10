@@ -16,7 +16,8 @@ textarea {
 }
 
 input,
-textarea {
+textarea,
+select {
   &:focus,
   &:active {
     outline: 1px solid $orange;
