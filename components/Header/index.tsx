@@ -19,7 +19,7 @@ export const Header: React.FC = () => {
           <a>CONHEÇA A PROFINDERS</a>
         </Link>
 
-        <Link href="/servicos">
+        <Link href="/#servicos">
           <a>NOSSOS SERVIÇOS</a>
         </Link>
 

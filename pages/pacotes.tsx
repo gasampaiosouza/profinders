@@ -2,6 +2,8 @@ import { BannerWithContent } from '../components/BannerWithContent';
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 
+import Link from 'next/link';
+
 import styles from '../styles/packages.module.scss';
 
 type SubscriptionProps = {
@@ -23,7 +25,9 @@ const Package: React.FC<SubscriptionProps> = (props) => (
     </div>
 
     {/* does nothing, yet */}
-    <button>CONTRATE</button>
+    <Link href="/inscricao">
+      <a>CONTRATE</a>
+    </Link>
   </div>
 );
 

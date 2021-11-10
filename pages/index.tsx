@@ -89,7 +89,7 @@ const Home: NextPage = () => {
         </p>
       </section>
 
-      <section className={styles['our-services']}>
+      <section className={styles['our-services']} id="servicos">
         <h1 className="default-title">NOSSOS SERVIÇOS</h1>
 
         <div className={styles['our-services_content']}>
